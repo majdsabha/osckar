@@ -1,0 +1,33 @@
+:root{
+    --primaryColor:#ff206e;
+    --mainFont:"Open Sans", sans-serif;
+}
+.text__primary{
+    color: var(--primaryColor);
+}
+
+body{
+    font-family: var(--mainFont);
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: white;
+}
+
+.navbar-nav .nav-item a.active{
+    color:var(--primaryColor);
+}
+
+.hero{
+    background-image: url('./imag/bg.jpg');
+    background-size: cover;
+}
+ .hero a{
+    color:var(--primaryColor);
+ }
+
+ .about{
+    background-image: url('./imag/light_dot.jpg');
+ }
+
+ 
