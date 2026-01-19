@@ -26,6 +26,21 @@ body{
     color:var(--primaryColor);
  }
 
+
+.carousel-indicators [data-bs-target]{
+    height: 30px;
+    border-radius:50% ;
+background-color: var(--primaryColor);
+}
+
+.Testimonial img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
  .about, 
  .portfolio{
     background-image: url('./imag/light_dot.jpg');
@@ -48,3 +63,4 @@ border:none ;
 .nav-tabs{
     border-bottom:none ;
 }
+
